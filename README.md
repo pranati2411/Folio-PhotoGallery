@@ -37,4 +37,4 @@ To get a local copy up and running, follow these simple steps:
 * Dynamically mapping through array data to render JSX components.
 
 ---
-*Designed and built by [Your Name]*
+Designed and built by Pranati
