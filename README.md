@@ -1,16 +1,40 @@
-# React + Vite
+# 📷 Folio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
 
-Currently, two official plugins are available:
+A sleek, dark-themed photo gallery built with React. This application dynamically fetches high-quality images using the Picsum API and organizes them into a responsive, paginated grid. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* **Dynamic API Integration:** Asynchronous data fetching using Axios to pull images and author data.
+* **Seamless Pagination:** Built-in "Next" and "Previous" controls to navigate through an infinite scroll of gallery pages.
+* **Loading States:** Centered, aesthetic loading indicators while API requests are resolved.
+* **Modern UI/UX:** Styled completely with Tailwind CSS, featuring a stark dark mode, hover states, and fully responsive image containment.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* **Frontend:** React.js (using Functional Components, useState, and useEffect)
+* **Styling:** Tailwind CSS
+* **Network:** Axios
+* **API:** [Picsum Photos API](https://picsum.photos/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+To get a local copy up and running, follow these simple steps:
+
+1. **Clone the repo:** `git clone https://github.com/pranati2411/Folio-PhotoGallery.git`
+2. **Navigate to the project directory:** `cd photogallery`
+3. **Install NPM packages:** `npm install`
+4. **Start the development server:** `npm run dev`
+
+## 🧠 What I Learned
+
+* Handling asynchronous operations and promises inside the useEffect hook.
+* Managing complex state arrays in React.
+* Absolute positioning and exact-center translations using Tailwind CSS (-translate-x-1/2).
+* Dynamically mapping through array data to render JSX components.
+
+---
+*Designed and built by [Your Name]*
